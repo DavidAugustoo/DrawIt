@@ -5,21 +5,152 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/x-icon">
     <title>DrawIt</title>
 </head>
 <body>
     <header>
-        <div class="header--logo">
-            <img src="./assets/images/logo" alt="Logo DrawIt">
+        <div class="container">
+            <div class="header-area">
+                <div class="header--logo">
+                    <img src="./assets/images/logo" alt="Logo DrawIt">
+                </div>
+                <nav>
+                    <ul class="header-menu">
+                        <li class="menu--item"><a href="#">Home</a></li>
+                        <li class="menu--item"><a href="#">Sobre</a></li>
+                        <li class="menu--item"><a href="#">Serviços</a></li>
+                        <li class="menu--item"><a href="#">Contato</a></li>
+                        <a href="#" class="buttom-project">Criar Projeto</a>
+                    </ul>
+
+                    <div class="menu-icon--mobile">
+                        <img src="./assets/images/menuIcon.svg" alt="">
+                    </div> 
+                </nav>
+            </div>
+            <nav>
+                <ul class="header-menu--mobile">
+                    <li class="menu--item--mobile"><a href="#">Home</a></li>
+                    <li class="menu--item--mobile"><a href="#">Sobre</a></li>
+                    <li class="menu--item--mobile"><a href="#">Serviços</a></li>
+                    <li class="menu--item--mobile"><a href="#">Contato</a></li>
+                    <a href="#" class="buttom-project">Criar Projeto</a>
+                </ul>
+            </nav>
+            
         </div>
-        <nav class="header--menu">
-            <ul>
-                <li>Home</li>
-                <li>Sobre</li>
-                <li>Serviços</li>
-                <li>Contato</li>
-            </ul>
-        </nav>
     </header>
+    
+    <section id="banner" >
+        <div class="container">
+            <div class="banner-area">
+                <h1 class="banner--title">A lousa digital online para facilitar a colaboração</h1>
+                <p  class="banner--subtitle"> Entre na era digital com seu quadro branco! DrawIt permite desenhar, esboçar e rabiscar ideias. É perfeito para estudantes, professores, reuniões de negócios, brainstorming e diversão!</p>
+                <a href="#" class="buttom-project">Criar Projeto</a>
+                <div class="banner--image">
+                    <img src="./assets/images/bannerIllustration.png" alt="">
+                </div>
+           </div>
+        </div>
+    </section>
+
+    <main class="container">
+        <section id="card" data-anime="left">
+                <div class="card-area">
+                    <div class="card--item">
+                        <div>
+                            <img src="./assets/images/pencilIcon.png" alt="">
+                        </div>
+                        <h3>Impulsione a criatividade</h3>
+                        <p>Escolha uma entre diversas opções de lapís, pinceis e cores</p>
+                    </div>
+                    <div class="card--item">
+                        <div>
+                            <img src="./assets/images/lampIcon.png" alt="">
+                        </div>
+                        <h3>Esboçe suas ideias</h3>
+                        <p>Ótimo para testar desenhos ou se divertir com amigos</p>
+                    </div>
+                    <div class="card--item">
+                        <div>
+                            <img src="./assets/images/freeIcon.png" alt="">
+                        </div>
+                        <h3>Gratuito para todos</h3>
+                        <p>Disponibilizamos todos os nossos recursos gratuitamente</p>
+                    </div>
+                </div>
+        </section>
+    
+        <section id="about" data-anime="right">
+            <div class="about-item">
+                <div class="about--desc">
+                    <h2>Simples, Prático e Bonito</h2>
+                    <p>DrawIt é um quadro branco gratuito para seu navegador. Ele foi projetado para ser rápido e simples. Você pode usar o quadro branco para desenhar, esboçar e rabiscar ideias. </p>
+                    <a href="#" class="about--buttom">Saiba mais</a>
+                </div>
+                <div class="about--image">
+                    <img src="./assets/images/aboutIllustrationOne.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" data-anime="left">
+            <div class="about-item">
+                <div class="about--image">
+                    <img src="./assets/images/aboutIllustrationTwo.png" alt="">
+                </div>
+                <div class="about--desc">
+                    <h2>Um espaço para suas melhores idéias. A qualquer hora, em qualquer lugar.</h2>
+                    <p>Do trabalho para casa, da escola para brincar. Somos um espaço de trabalho digital para colaboração visual. Libere a criatividade, o pensamento de design e inteligência coletiva de sua equipe com a DrawIt!</p>
+                    <a href="#" class="about--buttom">Saiba mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" data-anime="right">
+            <img class="contact-baner--desktop" src="./assets/images/bannerContact.svg" alt="">
+            <img class="contact-baner--mobile" src="./assets/images/bannerContactMobile.svg" alt="">
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer--area">
+                <div class="footer--logo">
+                    <div class="logo">
+                        <img src="./assets/images/logo" alt="">
+                    </div>
+                </div>
+
+                <div class="footer--links">
+                    <ul class="footer--link">
+                        <li><h4>Contato</h4></li>
+                        <li><a href=""><p>História</p></a></li>
+                        <li><a href=""><p>Sobre</p></a></li>
+                        <li><a href=""><p>Notícias</p></a></li>
+                    </ul>
+                    <ul class="footer--link">
+                        <li><a href=""><h4>Informações</h4></a></li>
+                        <li><a href=""><p>Contato</p></a></li>
+                        <li><a href=""><p>Termos e Condições</p></a></li>
+                        <li><a href=""><p>Política de privacidade</p></a></li>
+                    </ul>
+                    <ul class="footer--link">
+                        <li><h4>Redes Sociais</h4></li>
+                        <li><a href=""><p>Instagram</p></a></li>
+                        <li><a href=""><p>Facebook</p></a></li>
+                        <li><a href=""><p>Twitter</p></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="autor">
+                <p>Desenvolvido por <a href="https://davidaugusto.tech/">David Augusto</a></p>
+            </div>
+        </div>
+    </footer>
+   
+
+    <script src="./script.js"></script>
 </body>
 </html>
